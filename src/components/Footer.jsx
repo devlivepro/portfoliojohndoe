@@ -91,7 +91,7 @@ function Footer() {
             </ul>
           </div>
 
-          
+
           {/* Troisième colonne */}
           <div className="col-md-3">
             <ul>
@@ -100,25 +100,27 @@ function Footer() {
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
-                />{" "}
+                />
                 <a href="/blog">Wellness area</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
-                />{" "}
+                />
                 <a href="/blog">Fresh food</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
-                />{" "}
+                />
                 <a href="blog">Japanese restaurant</a>
               </li>
             </ul>
           </div>
+
+
           {/* Quatrième colonne */}
           <div className="col-md-3">
             <ul>
@@ -127,42 +129,42 @@ function Footer() {
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
-                />{" "}
+                />
                 <a href="/blog">Increase product sales</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
-                />{" "}
+                />
                 <a href="/blog">Learn SEO</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
-                />{" "}
+                />
                 <a href="/blog">Build a mock-up</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
-                />{" "}
+                />
                 <a href="/blog">Learn CSS</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
-                />{" "}
+                />
                 <a href="/blog">Learn Technologies</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
-                />{" "}
+                />
                 <a href="/blog">Learn AI</a>
               </li>
             </ul>
@@ -176,6 +178,8 @@ function Footer() {
         </div>
       </div>
     </footer>
+    
+    // End bloc footer
   );
 }
 
