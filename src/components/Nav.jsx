@@ -2,22 +2,28 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 function Nav() {
+
+  // Const active link
   const [activeLink, setActiveLink] = useState("/");
   const location = useLocation();
+  // End const active link
 
-  // Mettre à jour l'état de l'élément actif lors du changement de l'emplacement
+  // Updates items active refresh loading location
   useEffect(() => {
     setActiveLink(location.pathname);
   }, [location.pathname]);
+  // End updates items active refresh loading location
 
   return (
+
+    // Bloc nav
     <nav className="navbar navbar-expand-lg navbar-dark nav-bg-color">
       <div className="container">
-        {/* Logo */}
         <Link to="/" className="navbar-brand">
           <h1>John Doe</h1>
         </Link>
-        {/* Bouton de bascule pour le menu mobile */}
+        
+        {/* Button menu mobile */}
         <button
           className="navbar-toggler"
           type="button"
@@ -29,7 +35,9 @@ function Nav() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        {/* Menu de navigation */}
+        {/* End button menu mobile */}
+
+        {/* Menu of navigation */}
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className={`nav-item ${activeLink === "/" ? "active" : ""}`}>
@@ -73,8 +81,12 @@ function Nav() {
             </li>
           </ul>
         </div>
+        {/* End menu navigation */}
+        
       </div>
     </nav>
+    // End bloc nav
+
   );
 }
 
