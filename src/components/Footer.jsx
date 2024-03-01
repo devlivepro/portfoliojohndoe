@@ -1,17 +1,17 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faTwitter,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faTwitter, faLinkedin,} from "@fortawesome/free-brands-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
+
+    // Bloc footer
     <footer className="bg-footer h6">
       <div className="footer-links">
         <div className="row py-5">
+
+
           {/* Première colonne */}
           <div className="col-md-3">
             <p>
@@ -47,6 +47,8 @@ function Footer() {
               </a>
             </div>
           </div>
+
+
           {/* Deuxième colonne */}
           <div className="col-md-3">
             <ul>
@@ -88,6 +90,8 @@ function Footer() {
               </li>
             </ul>
           </div>
+
+          
           {/* Troisième colonne */}
           <div className="col-md-3">
             <ul>
