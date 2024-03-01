@@ -5,6 +5,8 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
+
+    // Bloc footer
     <footer className="bg-footer h6">
       <div className="footer-links">
         <div className="row py-5">
