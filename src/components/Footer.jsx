@@ -12,7 +12,7 @@ function Footer() {
         <div className="row py-5">
 
 
-          {/* Première colonne */}
+          {/* First coluwn */}
           <div className="col-md-3">
             <p>
               <h5>John Doe</h5>
@@ -49,7 +49,7 @@ function Footer() {
           </div>
 
 
-          {/* Deuxième colonne */}
+          {/* Second coluwn */}
           <div className="col-md-3">
             <ul>
               <h5>Useful links</h5>
@@ -92,7 +92,7 @@ function Footer() {
           </div>
 
 
-          {/* Troisième colonne */}
+          {/* Third coluwn */}
           <div className="col-md-3">
             <ul>
               <h5>Latest projects</h5>
@@ -121,7 +121,7 @@ function Footer() {
           </div>
 
 
-          {/* Quatrième colonne */}
+          {/* Fourth colonne */}
           <div className="col-md-3">
             <ul>
               <h5>Latest articles</h5>
