@@ -178,8 +178,8 @@ function Footer() {
         </div>
       </div>
     </footer>
-    // End bloc footer
     
+    // End bloc footer
   );
 }
 
