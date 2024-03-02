@@ -12,6 +12,7 @@ function Footer() {
         <div className="row py-5">
 
 
+
           {/* First coluwn */}
           <div className="col-md-3">
             <p>
@@ -101,6 +102,7 @@ function Footer() {
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
+                <a href="/blog">Wellness area</a>
                 <a href="/project">Wellness area</a>
               </li>
               <li>
@@ -108,6 +110,7 @@ function Footer() {
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
+                <a href="/blog">Fresh food</a>
                 <a href="/project">Fresh food</a>
               </li>
               <li>
@@ -115,6 +118,7 @@ function Footer() {
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
                 />
+                <a href="blog">Japanese restaurant</a>
                 <a href="/project">Japanese restaurant</a>
               </li>
             </ul>
