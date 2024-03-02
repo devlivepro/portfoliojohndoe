@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
+// Const scroll witch button
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -12,7 +13,7 @@ const ScrollToTopButton = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Appeler handleScroll pour vérifier la visibilité initiale
+    handleScroll(); // Call handleScroll to check initial visibility
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -33,5 +34,6 @@ const ScrollToTopButton = () => {
     </div>
   );
 };
+// End const scroll witch button
 
 export default ScrollToTopButton;

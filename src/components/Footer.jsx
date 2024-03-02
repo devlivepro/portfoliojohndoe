@@ -12,7 +12,8 @@ function Footer() {
         <div className="row py-5">
 
 
-          {/* Première colonne */}
+
+          {/* First coluwn */}
           <div className="col-md-3">
             <p>
               <h5>John Doe</h5>
@@ -49,7 +50,7 @@ function Footer() {
           </div>
 
 
-          {/* Deuxième colonne */}
+          {/* Second coluwn */}
           <div className="col-md-3">
             <ul>
               <h5>Useful links</h5>
@@ -57,42 +58,42 @@ function Footer() {
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
-                />{" "}
+                />
                 <a href="/">Home</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
-                />{" "}
+                />
                 <a href="/about">About</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
-                />{" "}
+                />
                 <a href="/service">Services</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
-                />{" "}
+                />
                 <a href="/contact">Contact</a>
               </li>
               <li>
                 <FontAwesomeIcon
                   icon={faChevronRight}
                   style={{ color: "#0d6efd" }}
-                />{" "}
+                />
                 <a href="/legal">Legal Notice</a>
               </li>
             </ul>
           </div>
 
 
-          {/* Troisième colonne */}
+          {/* Third coluwn */}
           <div className="col-md-3">
             <ul>
               <h5>Latest projects</h5>
@@ -102,6 +103,7 @@ function Footer() {
                   style={{ color: "#0d6efd" }}
                 />
                 <a href="/blog">Wellness area</a>
+                <a href="/project">Wellness area</a>
               </li>
               <li>
                 <FontAwesomeIcon
@@ -109,6 +111,7 @@ function Footer() {
                   style={{ color: "#0d6efd" }}
                 />
                 <a href="/blog">Fresh food</a>
+                <a href="/project">Fresh food</a>
               </li>
               <li>
                 <FontAwesomeIcon
@@ -116,12 +119,13 @@ function Footer() {
                   style={{ color: "#0d6efd" }}
                 />
                 <a href="blog">Japanese restaurant</a>
+                <a href="/project">Japanese restaurant</a>
               </li>
             </ul>
           </div>
 
 
-          {/* Quatrième colonne */}
+          {/* Fourth colonne */}
           <div className="col-md-3">
             <ul>
               <h5>Latest articles</h5>
